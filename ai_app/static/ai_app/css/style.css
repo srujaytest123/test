@@ -1,0 +1,459 @@
+@media (max-width: 766px) {
+  body {
+    background-color     : rgb(56, 55, 55);
+    /* background-image     : url('/static/images/background-image.jpg'); */
+    background-repeat    : no-repeat;
+    background-attachment: fixed;
+    background-size      : cover;
+    background-position  : center;
+
+    font-family: "Söhne Mono", "Monaco", "Andale Mono", "Ubuntu Mono", "monospace";
+    font-size  : 1rem;
+  }
+
+  div#container-main-box {
+    background-color   : #e9eef1;
+    min-height         : 95vh;
+    overflow-x         : auto;
+    /* margin-left     : 10%;
+    margin-right       : 10%;
+    max-width          : 90vb; */
+  }
+
+  div.header {
+    margin                    : 25px 0px 5px 0px;
+    background-color          : #c7dff3;
+    color                     : rgb(14, 13, 13);
+    border-top-left-radius    : 0.25rem;
+    border-top-right-radius   : 0.25rem;
+    border-bottom-left-radius : 0.25rem;
+    border-bottom-right-radius: 0.25rem;
+    text-align                : center;
+    padding                   : 20px 10px;
+    margin                    : 3px;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.75rem;
+  }
+
+  h3 {
+    font-size: 1.25rem;
+  }
+
+  h4 {
+    font-size: 1rem;
+  }
+
+  h4.right-para {
+    text-align: center;
+    width     : 100%;
+  }
+
+  div.mb-3>label {
+    margin   : 25px 0px 5px 0px;
+    color    : black;
+    font-size: 1rem;
+  }
+
+  div.mb-3>button {
+    margin   : 25px 0px 5px 0px;
+    font-size: 1rem;
+  }
+
+  span#charCount {
+    font-size      : 0.75rem;
+    text-align     : right;
+    width          : 100%;
+    justify-content: right;
+  }
+
+  .is-invalid {
+    border-color: #f7871f;
+  }
+
+  div.modal-dialog {
+    max-width   : 90%;
+    margin-left : 20%;
+    margin-right: 19%;
+    margin-top  : 30%;
+  }
+
+  h5.modal-title {
+    color      : black;
+    font-weight: bold;
+    font-size  : 1rem;
+  }
+
+  .modal-dialog,
+  .modal-content {
+    background-color: #f8f6f6;
+    color           : rgb(39, 37, 37);
+    font-size       : 0.75rem;
+  }
+
+
+  div.container-output-main {
+    width           : 100%;
+    background-color: white;
+    padding         : 10px;
+    align-items     : center;
+    display         : block;
+    justify-content : space-around;
+  }
+
+  div.container-output-header1 {
+    width          : 85%;
+    display        : flex;
+    justify-content: left;
+    overflow-x     : auto;
+    align-items    : center;
+  }
+
+  div.container-output-header2 {
+    width             : 15%;
+    /* flex-basis     : 10px; */
+    /*Set a fixed width for the flex item - Gives padding from the right 100px*/
+    justify-content   : right;
+  }
+
+  div.container-output-header2>button {
+    flex-shrink: 1;
+    flex-basis : auto;
+  }
+
+  button#copy_button {
+    font-size: 20px;
+  }
+
+  div.output_container,
+  pre,
+  code {
+    white-space: pre-wrap;
+    /*css-3*/
+    white-space: -moz-pre-wrap;
+    /*Mozilla*/
+    white-space: -pre-wrap;
+    /*Opera <7*/
+    white-space: -o-pre-wrap;
+    /*Opera 7*/
+    word-wrap  : break-word;
+    /*Internet Explorer 5.5+*/
+
+    /* closing of word wrap */
+    width           : 100%;
+    padding         : 0px 30px;
+    border-radius   : 0px;
+    border          : 0;
+    background-color: #404040;
+    color           : #c1cdd6;
+    font-size       : 18px;
+    font-family     : "Söhne Mono", "Monaco", "Andale Mono", "Ubuntu Mono", "monospace";
+    line-height     : 24px;
+    margin-bottom   : 15px;
+  }
+
+
+
+
+
+}
+
+@media screen and (min-width: 767px) and (max-width: 1003px) {
+  body {
+    background-color     : rgb(56, 55, 55);
+    /* background-image     : url('/static/images/background-image.jpg'); */
+    background-repeat    : no-repeat;
+    background-attachment: fixed;
+    background-size      : cover;
+    background-position  : center;
+
+    font-family: "Söhne Mono", "Monaco", "Andale Mono", "Ubuntu Mono", "monospace";
+    font-size  : 17px;
+  }
+
+  div#container-main-box {
+    background-color: #e9eef1;
+    min-height      : 95vh;
+    /* overflow-y   : auto; */
+  }
+
+  div.header {
+    margin: 250px;
+  }
+
+  div.header {
+    margin                    : 25px 0px 5px 0px;
+    background-color          : #c7dff3;
+    color                     : rgb(14, 13, 13);
+    border-top-left-radius    : 10px;
+    border-top-right-radius   : 10px;
+    border-bottom-left-radius : 10px;
+    border-bottom-right-radius: 10px;
+    text-align                : center;
+    padding                   : 20px 10px;
+    margin                    : 3px;
+  }
+
+  h4.right-para {
+    text-align: center;
+    width     : 100%;
+  }
+
+  div.mb-3>label {
+    margin: 25px 0px 5px 0px;
+    color : black;
+  }
+
+  div.mb-3>button {
+    margin: 25px 0px 5px 0px;
+  }
+
+  span#charCount {
+    font-size      : 15px;
+    text-align     : right;
+    width          : 100%;
+    justify-content: right;
+  }
+
+  .is-invalid {
+    border-color: #f7871f;
+  }
+
+
+
+  div.modal-dialog {
+    max-width   : 30%;
+    margin-left : 37%;
+    margin-right: 33%;
+    margin-top  : 10%;
+  }
+
+
+
+
+  h5.modal-title {
+    color      : black;
+    font-weight: bold;
+  }
+
+  .modal-dialog,
+  .modal-content {
+    background-color: #f8f6f6;
+    color           : rgb(39, 37, 37);
+  }
+
+
+  div.container-output-main {
+    width           : 100%;
+    background-color: white;
+    padding         : 10px;
+    display         : flex;
+    align-items     : center;
+    justify-content : space-around;
+  }
+
+  div.container-output-header1 {
+    width          : 85%;
+    display        : flex;
+    justify-content: left;
+    overflow-x     : auto;
+    padding-right  : 0.25rem;
+  }
+
+  div.container-output-header2 {
+    width          : 15%;
+    flex-basis     : 9.37rem;
+    /*Set a fixed width for the flex item - Gives padding from the right 100px*/
+    justify-content: right;
+  }
+
+  div.container-output-header2>button {
+    flex-shrink: 1;
+    flex-basis : auto;
+  }
+
+  button#copy_button {
+    font-size: 20px;
+  }
+
+  div.output_container,
+  pre,
+  code {
+    white-space: pre-wrap;
+    /*css-3*/
+    white-space: -moz-pre-wrap;
+    /*Mozilla*/
+    white-space: -pre-wrap;
+    /*Opera <7*/
+    white-space: -o-pre-wrap;
+    /*Opera 7*/
+    word-wrap  : break-word;
+    /*Internet Explorer 5.5+*/
+
+    /* closing of word wrap */
+    width           : 100%;
+    padding         : 0px 30px;
+    border-radius   : 0px;
+    border          : 0;
+    background-color: #404040;
+    color           : #c1cdd6;
+    font-size       : 18px;
+    font-family     : "Söhne Mono", "Monaco", "Andale Mono", "Ubuntu Mono", "monospace";
+    line-height     : 24px;
+    margin-bottom   : 15px;
+  }
+}
+
+@media screen and (min-width: 1004px) {
+  body {
+    background-color     : rgb(56, 55, 55);
+    /* background-image     : url('/static/images/background-image.jpg'); */
+    background-repeat    : no-repeat;
+    background-attachment: fixed;
+    background-size      : cover;
+    background-position  : center;
+
+    font-family: "Söhne Mono", "Monaco", "Andale Mono", "Ubuntu Mono", "monospace";
+    font-size  : 17px;
+  }
+
+  div#container-main-box {
+    background-color: #e9eef1;
+    min-height      : 95vh;
+    /* overflow-y   : auto; */
+  }
+
+  div.header {
+    margin: 250px;
+  }
+
+  div.header {
+    margin                    : 25px 0px 5px 0px;
+    background-color          : #c7dff3;
+    color                     : rgb(14, 13, 13);
+    border-top-left-radius    : 10px;
+    border-top-right-radius   : 10px;
+    border-bottom-left-radius : 10px;
+    border-bottom-right-radius: 10px;
+    text-align                : center;
+    padding                   : 20px 10px;
+    margin                    : 3px;
+  }
+
+  h4.right-para {
+    text-align: center;
+    width     : 100%;
+  }
+
+  div.mb-3>label {
+    margin: 25px 0px 5px 0px;
+    color : black;
+  }
+
+  div.mb-3>button {
+    margin: 25px 0px 5px 0px;
+  }
+
+  span#charCount {
+    font-size      : 15px;
+    text-align     : right;
+    width          : 100%;
+    justify-content: right;
+  }
+
+  .is-invalid {
+    border-color: #f7871f;
+  }
+
+
+
+  div.modal-dialog {
+    max-width   : 30%;
+    margin-left : 37%;
+    margin-right: 33%;
+    margin-top  : 10%;
+  }
+
+
+
+
+  h5.modal-title {
+    color      : black;
+    font-weight: bold;
+  }
+
+  .modal-dialog,
+  .modal-content {
+    background-color: #f8f6f6;
+    color           : rgb(39, 37, 37);
+  }
+
+
+  div.container-output-main {
+    width           : 100%;
+    background-color: white;
+    padding         : 10px;
+    display         : flex;
+    align-items     : center;
+    justify-content : space-around;
+  }
+
+  div.container-output-header1 {
+    width          : 85%;
+    display        : flex;
+    justify-content: left;
+    overflow-x     : auto;
+    padding-right  : 0.25rem;
+  }
+
+  div.container-output-header2 {
+    width             : 15%;
+    /* // flex-basis     : 50px; */
+
+    flex-basis     : 5rem;
+    /*Set a fixed width for the flex item - Gives padding from the right 100px*/
+    justify-content: right;
+  }
+
+  div.container-output-header2>button {
+    flex-shrink: 1;
+    flex-basis : auto;
+  }
+
+  button#copy_button {
+    font-size: 20px;
+  }
+
+  div.output_container,
+  pre,
+  code {
+    white-space: pre-wrap;
+    /*css-3*/
+    white-space: -moz-pre-wrap;
+    /*Mozilla*/
+    white-space: -pre-wrap;
+    /*Opera <7*/
+    white-space: -o-pre-wrap;
+    /*Opera 7*/
+    word-wrap  : break-word;
+    /*Internet Explorer 5.5+*/
+
+    /* closing of word wrap */
+    width           : 100%;
+    padding         : 0px 30px;
+    border-radius   : 0px;
+    border          : 0;
+    background-color: #404040;
+    color           : #c1cdd6;
+    font-size       : 18px;
+    font-family     : "Söhne Mono", "Monaco", "Andale Mono", "Ubuntu Mono", "monospace";
+    line-height     : 24px;
+    margin-bottom   : 15px;
+  }
+
+}
